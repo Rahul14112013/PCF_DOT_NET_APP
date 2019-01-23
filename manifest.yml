@@ -1,0 +1,6 @@
+applications:
+- name: pcfCoreApp1
+  instances: 1
+  memory: 500M
+  buildpack: dotnet_core_buildpack
+  stack: cflinuxfs2
